@@ -46,7 +46,7 @@ def gene_search(seq, forward, reverse):
             with open(out, 'w') as g:
                 for each,i in enumerate(genes2):
                     g.write('>'+'gene_'+i+'\n')
-                    g.write(each)
+                    g.write(each+'\n')
         gene_filt(seq=lines, kmers = all_kmers, out=forward)
         #Get genes for reverse complement strand
         COMPLEMENTARY_TABLE = str.maketrans({
