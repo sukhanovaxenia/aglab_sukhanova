@@ -34,8 +34,9 @@ for i in range(len(all_kmers)):
 for i in range(len(position)):
     if int(position[i][1]-position[i][0]) > 60:
         genes.append(lines[position[i][0]:position[i][1]])
-        AT_count=lines[position[i][0]-35:position[i][1]-10].count('A') + lines[position[i][0]-35:position[i][1]-10].count('T')
-        if  0.5 <(AT_count/len(lines[position[i][0]-35:position[i][1]-10])) < 0.8:  
+        AT_count_1=lines[position[i][0]-16:position[i][0]-10].count('A') + lines[position[i][0]-16:position[i][0]-10].count('T')
+        AT_count_2=lines[position[i][0]-41:position[i][0]-35].count('A') + lines[position[i][0]-41:position[i][0]-35].count('T')
+        if  0.5 <(AT_count_1+AT_count_2)/12) < 0.9:  
             genes2.append(lines[position[i][0]:position[i][1]])
 with open('genes_unTATA.fa', 'w') as f:
     for each in genes:
