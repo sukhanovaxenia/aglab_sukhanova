@@ -27,14 +27,16 @@ stop = ['TAG', 'TGA', 'TAA']
 with open(fK) as k:
     kmers = [each.strip() for each in k]
 
-with open(fOUT, 'w') as out:
-    for i in range(len(kmers)):
-        if kmers[i] != start:
-            continue
-        starting=i
-        for j in range(starting, len(kmers)):
-            if kmers[j] in stop:
-                ending = j
-                out.write((starting, ending))
-                break
+position=[]
 
+for i in range(len(kmers)):
+    if kmers[i] != start:
+        continue
+    starting=i
+    for j in range(starting, len(kmers)):
+        if kmers[j] in stop:
+            ending = j
+            position.append((starting, ending))
+            break
+with open(fOUT, 'w') as out:
+    out.write('\n'.join('%s %s' % x for x in position))

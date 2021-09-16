@@ -11,7 +11,7 @@ parser.add_argument("--fa",
         type = str,
         metavar = 'STRING',
         help = 'fasta file of genome sequence')
-parser.add_argumen("--k",
+parser.add_argument("--k",
         type = int,
         metavar = 'INT',
         help = 'size of kmers')
@@ -32,9 +32,9 @@ with open(fFA) as genome:
 lines=''.join(lines)
 
     
-n_kemrs = len(lines)-ksize+1
+n_kmers = len(lines)-ksize+1
 with open(fOUT, 'w') as c:
     for i in range(n_kmers):
-        c.write(lines[i:i+ksize])
+        c.write(lines[i:i+ksize]+'\n')
 
 

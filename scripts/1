@@ -31,12 +31,13 @@ with open(fFA) as genome:
 seq=''.join(seq)
 
 with open(fPOS) as p:
-    position = [each.strip() for each in p]
+    pos = [each.strip() for each in p]
 
 genes=[]
 
-for i in range(len(position)):
-    pos=position[i].split(' ')
+for i in range(len(pos)):
+    pos=pos[i]
+    print(pos[0])
     if int(pos[1])-int(pos[0]) > 60:
         AT_count_1=seq[int(pos[0])-16:int(pos[0])-10].count('A') + seq[int(pos[0])-16:int(pos[0])-10].count('T')
         AT_count_2=seq[int(pos[0])-41:int(pos[0])-35].count('A') + seq[int(pos[0])-41:int(pos[0])-35].count('T')
@@ -45,8 +46,8 @@ for i in range(len(position)):
 
 with open(fOUT, 'w') as g:
     for each, i in enumerate(genes):
-        g.write('>'+'gene_'+str(each)+'\n')
-        g.write(i+'\n')
+        g.write('>'+'gene_'+i+'\n')
+        g.write(each+'\n')
 
 
 
