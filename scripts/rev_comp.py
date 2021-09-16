@@ -28,7 +28,7 @@ complement_table = str.maketrans({
 with open(fFA) as genome:
     first_line = genome.readline()
     lines = genome.read().split('\n')
-    lines = ''.join(lines)
+lines = ''.join(lines)
 
 rev_seq = lines[::-1].translate(complement_table)
 
