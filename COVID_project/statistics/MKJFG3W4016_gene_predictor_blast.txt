@@ -1,0 +1,98 @@
+RID: MKJFG3W4016	
+Job Title:4 sequences (gene_0)				
+Program: BLASTN 
+Database: nt Nucleotide collection (nt)
+Query #1: gene_0 Query ID: lcl|Query_49814 Length: 86
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+Bat SARS-like coronavirus isolate bat-SL-CoVZXC21, complete...    Bat SARS-lik... NA              1508227    137    137   100%  1e-30 95.35  29732      MG772934.1       
+
+
+Alignments:
+
+>Bat SARS-like coronavirus isolate bat-SL-CoVZXC21, complete genome
+Sequence ID: MG772934.1 Length: 29732
+Range 1: 29256 to 29341
+
+Score:137 bits(74), Expect:1e-30, 
+Identities:82/86(95%),  Gaps:0/86(0%), Strand: Plus/Minus
+
+Query  1      ATGGATTGTTGCAATTGTTTGGAGAAATCATCCAAATCTGCAGCAGGAAGAAGAGTCACA  60
+              |||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||
+Sbjct  29341  ATGGATTGTTGCAACTGTTTGGAGAATTCATCCAAATCTGCAGCAGGAAGAAGAGTCACA  29282
+
+Query  61     GTTTGCTGTTTCTTCTGTCTCTGCGG  86
+              ||||| || |||||||||||||||||
+Sbjct  29281  GTTTGTTGCTTCTTCTGTCTCTGCGG  29256
+
+
+
+
+
+Query #2: gene_1 Query ID: lcl|Query_49815 Length: 63
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+Bat SARS-like coronavirus isolate bat-SL-CoVZXC21, complete...    Bat SARS-lik... NA              1508227    100    100   100%  8e-20 95.24  29732      MG772934.1       
+Bat SARS-like coronavirus isolate bat-SL-CoVZC45, complete genome Bat SARS-lik... NA              1508227    100    100   100%  8e-20 95.24  29802      MG772933.1       
+
+
+Alignments:
+
+>Bat SARS-like coronavirus isolate bat-SL-CoVZXC21, complete genome
+Sequence ID: MG772934.1 Length: 29732
+Range 1: 26761 to 26823
+
+Score:100 bits(54), Expect:8e-20, 
+Identities:60/63(95%),  Gaps:0/63(0%), Strand: Plus/Minus
+
+Query  1      ATGGTGTCCAGCAATACGAAGATGTCCACGAAGGATCACAGCTCCGATTACGAGTTCACT  60
+              ||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||
+Sbjct  26823  ATGGTGTCCTGCAATACGAAGATGTCCACGAAGGATCACAGCTCCAATTACGAGTTCACT  26764
+
+Query  61     TTC  63
+               ||
+Sbjct  26763  CTC  26761
+
+
+
+
+>Bat SARS-like coronavirus isolate bat-SL-CoVZC45, complete genome
+Sequence ID: MG772933.1 Length: 29802
+Range 1: 26830 to 26892
+
+Score:100 bits(54), Expect:8e-20, 
+Identities:60/63(95%),  Gaps:0/63(0%), Strand: Plus/Minus
+
+Query  1      ATGGTGTCCAGCAATACGAAGATGTCCACGAAGGATCACAGCTCCGATTACGAGTTCACT  60
+              ||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||
+Sbjct  26892  ATGGTGTCCTGCAATACGAAGATGTCCACGAAGGATCACAGCTCCAATTACGAGTTCACT  26833
+
+Query  61     TTC  63
+               ||
+Sbjct  26832  CTC  26830
+
+
+
+
+
+Query #3: gene_2 Query ID: lcl|Query_49816 Length: 77
+
+No significant similarity found.
+
+
+
+Query #4: gene_3 Query ID: lcl|Query_49817 Length: 69
+
+No significant similarity found.
+
+
+
+
+
+		
+
+
