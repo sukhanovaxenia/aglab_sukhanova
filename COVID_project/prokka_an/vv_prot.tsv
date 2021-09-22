@@ -1,0 +1,31 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+BKJNMEOD_00001	CDS	1260	N			Nucleoprotein
+BKJNMEOD_00002	CDS	366				hypothetical protein
+BKJNMEOD_00003	CDS	366	7a			Protein 7a
+BKJNMEOD_00004	CDS	186				hypothetical protein
+BKJNMEOD_00005	CDS	669	M			Membrane protein
+BKJNMEOD_00006	CDS	828	3a			Protein 3a
+BKJNMEOD_00007	CDS	3822	S			Spike glycoprotein
+BKJNMEOD_00008	CDS	7788	rep			Replicase polyprotein 1ab
+BKJNMEOD_00009	CDS	13218	1a			Replicase polyprotein 1a
+BKJNMEOD_00010	CDS	558				hypothetical protein
+BKJNMEOD_00011	CDS	117	J			DNA-binding protein J
+BKJNMEOD_00012	CDS	459	D			External scaffolding protein D
+BKJNMEOD_00013	CDS	261				hypothetical protein
+BKJNMEOD_00014	CDS	1542	A	3.1.21.-		Replication-associated protein A
+BKJNMEOD_00015	CDS	987	H			Minor spike protein H
+BKJNMEOD_00016	CDS	528	G			Major spike protein G
+BKJNMEOD_00017	CDS	294	F			Capsid protein F
+BKJNMEOD_00018	CDS	273				hypothetical protein
+BKJNMEOD_00019	CDS	1053				hypothetical protein
+BKJNMEOD_00020	CDS	252				hypothetical protein
+BKJNMEOD_00021	CDS	1209				hypothetical protein
+BKJNMEOD_00022	CDS	321				hypothetical protein
+BKJNMEOD_00023	CDS	492				hypothetical protein
+BKJNMEOD_00024	CDS	420				hypothetical protein
+BKJNMEOD_00025	CDS	102				hypothetical protein
+BKJNMEOD_00026	CDS	237				hypothetical protein
+BKJNMEOD_00027	CDS	816				hypothetical protein
+BKJNMEOD_00028	CDS	402				hypothetical protein
+BKJNMEOD_00029	CDS	1167				hypothetical protein
+BKJNMEOD_00030	CDS	1512				hypothetical protein

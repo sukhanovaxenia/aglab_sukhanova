@@ -1,0 +1,247 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:30 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 30 present
+DISC_COUNT_NUCLEOTIDES:5 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:30 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:5 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:2 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:5 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:5 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:5 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:5 sequences do not include structured comments.
+MISSING_PROJECT:35 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+SEQ_ID_PHRASES:Sequence Ids contain unacceptable phrases (cov_, length, node, paired, or trimmed)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::30 proteins have invalid IDs.
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_1 (length 419)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_2 (length 121)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_3 (length 121)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_4 (length 61)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_5 (length 222)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_6 (length 275)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_7 (length 1273)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_8 (length 2595)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_9 (length 4405)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_1 (length 185)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_2 (length 38)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_3 (length 152)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_4 (length 86)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_5 (length 513)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_6 (length 328)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_7 (length 175)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_8 (length 97)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963_1 (length 90)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963_2 (length 350)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963_3 (length 83)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963_4 (length 402)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963_5 (length 106)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446_1 (length 163)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446_2 (length 139)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446_3 (length 33)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446_4 (length 78)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446_5 (length 271)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870_1 (length 133)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870_2 (length 388)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870_3 (length 503)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::5 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::5 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 30 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::5 nucleotide Bioseqs are present
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528 (length 29907)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946 (length 5584)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963 (length 3842)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446 (length 3766)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870 (length 3341)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::30 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	Nucleoprotein	NODE_1_length_29907_cov_150.822528:c1629-370	BKJNMEOD_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_1_length_29907_cov_150.822528:c2009-1644	BKJNMEOD_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	Protein 7a	NODE_1_length_29907_cov_150.822528:c2509-2144	BKJNMEOD_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_1_length_29907_cov_150.822528:c2701-2516	BKJNMEOD_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	Membrane protein	NODE_1_length_29907_cov_150.822528:c3380-2712	BKJNMEOD_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	Protein 3a	NODE_1_length_29907_cov_150.822528:c4510-3683	BKJNMEOD_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	Spike glycoprotein	NODE_1_length_29907_cov_150.822528:c8340-4519	BKJNMEOD_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	Replicase polyprotein 1ab	NODE_1_length_29907_cov_150.822528:c16135-8348	BKJNMEOD_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	Replicase polyprotein 1a	NODE_1_length_29907_cov_150.822528:c29637-16420	BKJNMEOD_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_3_length_5584_cov_13759.613946:456-1013	BKJNMEOD_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	DNA-binding protein J	NODE_3_length_5584_cov_13759.613946:c1259-1143	BKJNMEOD_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	External scaffolding protein D	NODE_3_length_5584_cov_13759.613946:c1717-1259	BKJNMEOD_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_3_length_5584_cov_13759.613946:c1974-1714	BKJNMEOD_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	Replication-associated protein A	NODE_3_length_5584_cov_13759.613946:c3512-1971	BKJNMEOD_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	Minor spike protein H	NODE_3_length_5584_cov_13759.613946:c4562-3576	BKJNMEOD_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	Major spike protein G	NODE_3_length_5584_cov_13759.613946:c5098-4571	BKJNMEOD_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	Capsid protein F	NODE_3_length_5584_cov_13759.613946:c5502-5209	BKJNMEOD_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_9_length_3842_cov_27.242963:237-509	BKJNMEOD_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_9_length_3842_cov_27.242963:506-1558	BKJNMEOD_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_9_length_3842_cov_27.242963:c2181-1930	BKJNMEOD_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_9_length_3842_cov_27.242963:2240-3448	BKJNMEOD_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_9_length_3842_cov_27.242963:c3765-3445	BKJNMEOD_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_12_length_3766_cov_9.195446:456-947	BKJNMEOD_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_12_length_3766_cov_9.195446:1428-1847	BKJNMEOD_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_12_length_3766_cov_9.195446:2412-2513	BKJNMEOD_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_12_length_3766_cov_9.195446:2604-2840	BKJNMEOD_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_12_length_3766_cov_9.195446:c3747-2932	BKJNMEOD_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_21_length_3341_cov_35.065870:35-436	BKJNMEOD_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_21_length_3341_cov_35.065870:505-1671	BKJNMEOD_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+./prokka_an//vv_prot:CDS	hypothetical protein	NODE_21_length_3341_cov_35.065870:1690-3201	BKJNMEOD_00030
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::5 comment descriptors were found (all same)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::2 protein sequences are shorter than 50 aa.
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_2 (length 38)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446_3 (length 33)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::5 bioseqs are missing GenomeAssembly structured comments
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528 (length 29907)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946 (length 5584)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963 (length 3842)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446 (length 3766)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870 (length 3341)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::5 molecule types are not set as mRNA.
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528 (length 29907)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946 (length 5584)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963 (length 3842)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446 (length 3766)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870 (length 3341)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::5 technique are not set as TSA
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528 (length 29907)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946 (length 5584)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963 (length 3842)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446 (length 3766)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870 (length 3341)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::5 sequences do not include structured comments.
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528 (length 29907)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946 (length 5584)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963 (length 3842)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446 (length 3766)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870 (length 3341)
+
+DiscRep_ALL:MISSING_PROJECT::35 sequences do not include project.
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528 (length 29907)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_1 (length 419)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_2 (length 121)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_3 (length 121)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_4 (length 61)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_5 (length 222)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_6 (length 275)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_7 (length 1273)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_8 (length 2595)
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528_9 (length 4405)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946 (length 5584)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_1 (length 185)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_2 (length 38)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_3 (length 152)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_4 (length 86)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_5 (length 513)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_6 (length 328)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_7 (length 175)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946_8 (length 97)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963 (length 3842)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963_1 (length 90)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963_2 (length 350)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963_3 (length 83)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963_4 (length 402)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963_5 (length 106)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446 (length 3766)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446_1 (length 163)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446_2 (length 139)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446_3 (length 33)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446_4 (length 78)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446_5 (length 271)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870 (length 3341)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870_1 (length 133)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870_2 (length 388)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870_3 (length 503)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::5 Molinfos are missing field technique
+./prokka_an//vv_prot:NODE_1_length_29907_cov_150.822528 (length 29907)
+./prokka_an//vv_prot:NODE_3_length_5584_cov_13759.613946 (length 5584)
+./prokka_an//vv_prot:NODE_9_length_3842_cov_27.242963 (length 3842)
+./prokka_an//vv_prot:NODE_12_length_3766_cov_9.195446 (length 3766)
+./prokka_an//vv_prot:NODE_21_length_3341_cov_35.065870 (length 3341)
+
+DiscRep_ALL:SEQ_ID_PHRASES::Sequence Ids contain unacceptable phrases (cov_, length, node, paired, or trimmed)
+

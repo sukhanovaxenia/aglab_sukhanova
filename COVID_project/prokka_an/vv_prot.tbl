@@ -1,0 +1,152 @@
+>Feature NODE_1_length_29907_cov_150.822528
+1629	370	CDS
+			gene	N
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P59595
+			locus_tag	BKJNMEOD_00001
+			product	Nucleoprotein
+2009	1644	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00002
+			product	hypothetical protein
+2509	2144	CDS
+			gene	7a
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P59635
+			locus_tag	BKJNMEOD_00003
+			product	Protein 7a
+2701	2516	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00004
+			product	hypothetical protein
+3380	2712	CDS
+			gene	M
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P59596
+			locus_tag	BKJNMEOD_00005
+			product	Membrane protein
+4510	3683	CDS
+			gene	3a
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P59632
+			locus_tag	BKJNMEOD_00006
+			product	Protein 3a
+8340	4519	CDS
+			gene	S
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P59594
+			locus_tag	BKJNMEOD_00007
+			product	Spike glycoprotein
+16135	8348	CDS
+			gene	rep
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0C6X7
+			locus_tag	BKJNMEOD_00008
+			product	Replicase polyprotein 1ab
+29637	16420	CDS
+			gene	1a
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0C6U8
+			locus_tag	BKJNMEOD_00009
+			product	Replicase polyprotein 1a
+>Feature NODE_3_length_5584_cov_13759.613946
+456	1013	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00010
+			product	hypothetical protein
+1259	1143	CDS
+			gene	J
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69592
+			locus_tag	BKJNMEOD_00011
+			product	DNA-binding protein J
+1717	1259	CDS
+			gene	D
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69486
+			locus_tag	BKJNMEOD_00012
+			product	External scaffolding protein D
+1974	1714	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00013
+			product	hypothetical protein
+3512	1971	CDS
+			EC_number	3.1.21.-
+			gene	A
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P03631
+			locus_tag	BKJNMEOD_00014
+			product	Replication-associated protein A
+4562	3576	CDS
+			gene	H
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P03646
+			locus_tag	BKJNMEOD_00015
+			product	Minor spike protein H
+5098	4571	CDS
+			gene	G
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P03643
+			locus_tag	BKJNMEOD_00016
+			product	Major spike protein G
+5502	5209	CDS
+			gene	F
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P03641
+			locus_tag	BKJNMEOD_00017
+			product	Capsid protein F
+>Feature NODE_9_length_3842_cov_27.242963
+237	509	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00018
+			product	hypothetical protein
+506	1558	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00019
+			product	hypothetical protein
+2181	1930	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00020
+			product	hypothetical protein
+2240	3448	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00021
+			product	hypothetical protein
+3765	3445	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00022
+			product	hypothetical protein
+>Feature NODE_12_length_3766_cov_9.195446
+456	947	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00023
+			product	hypothetical protein
+1428	1847	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00024
+			product	hypothetical protein
+2412	2513	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00025
+			product	hypothetical protein
+2604	2840	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00026
+			product	hypothetical protein
+3747	2932	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00027
+			product	hypothetical protein
+>Feature NODE_21_length_3341_cov_35.065870
+35	436	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00028
+			product	hypothetical protein
+505	1671	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00029
+			product	hypothetical protein
+1690	3201	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BKJNMEOD_00030
+			product	hypothetical protein
